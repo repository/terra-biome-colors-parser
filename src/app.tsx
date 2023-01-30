@@ -1,4 +1,5 @@
 import {
+  ActionIcon,
   Box,
   Button,
   Card,
@@ -20,7 +21,7 @@ import { Prism } from "@mantine/prism";
 import { createWorkerFactory, useWorker } from "@shopify/react-web-worker";
 import { saveAs } from "file-saver";
 import { useCallback, useMemo, useState } from "preact/hooks";
-import { TbWorldUpload } from "react-icons/tb";
+import { TbBrandGithub, TbWorldUpload } from "react-icons/tb";
 import yaml from "yaml";
 
 const createBiomesWorker = createWorkerFactory(() => import("./parse-biomes"));
@@ -106,7 +107,14 @@ export function App(props: Partial<DropzoneProps>) {
   return (
     <Container size="lg">
       <Box mt="0.5rem" mb="1rem">
-        <Title>Terra Biome Colors Parser</Title>
+        <Group position="apart">
+          <Title>Terra Biome Colors Parser</Title>
+          <Group>
+            <ActionIcon component="a" href="https://github.com/repository/terra-biome-colors-parser" size="lg">
+              <TbBrandGithub size="27" />
+            </ActionIcon>
+          </Group>
+        </Group>
         <Divider style={{ marginTop: "0.2rem" }} />
       </Box>
 
