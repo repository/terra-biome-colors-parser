@@ -1,0 +1,43 @@
+{
+  "name": "terra-biome-colors-parser",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.10.2",
+    "@mantine/dropzone": "^5.10.2",
+    "@mantine/notifications": "^5.10.2",
+    "@mantine/prism": "^5.10.2",
+    "@shopify/react-web-worker": "^5.0.7",
+    "client-zip": "^2.3.0",
+    "escape-string-regexp": "^5.0.0",
+    "file-saver": "^2.0.5",
+    "preact": "^10.11.3",
+    "react-icons": "^4.7.1",
+    "unzipit": "^1.4.0",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/file-saver": "^2.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
