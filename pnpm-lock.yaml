@@ -4,6 +4,7 @@ specifiers:
   '@emotion/react': ^11.10.5
   '@mantine/core': ^5.10.2
   '@mantine/dropzone': ^5.10.2
+  '@mantine/hooks': ^5.10.2
   '@mantine/notifications': ^5.10.2
   '@mantine/prism': ^5.10.2
   '@preact/preset-vite': ^2.4.0
@@ -30,10 +31,11 @@ specifiers:
 
 dependencies:
   '@emotion/react': 11.10.5
-  '@mantine/core': 5.10.2_@emotion+react@11.10.5
-  '@mantine/dropzone': 5.10.2_@mantine+core@5.10.2
-  '@mantine/notifications': 5.10.2_@mantine+core@5.10.2
-  '@mantine/prism': 5.10.2_@mantine+core@5.10.2
+  '@mantine/core': 5.10.2_rdbcatcwpd7u6iobtryzannyde
+  '@mantine/dropzone': 5.10.2_wu24gcaecufmlrefin7sci74eq
+  '@mantine/hooks': 5.10.2
+  '@mantine/notifications': 5.10.2_wu24gcaecufmlrefin7sci74eq
+  '@mantine/prism': 5.10.2_wu24gcaecufmlrefin7sci74eq
   '@shopify/react-web-worker': 5.0.7
   client-zip: 2.3.0
   escape-string-regexp: 5.0.0
@@ -780,7 +782,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@mantine/core/5.10.2_@emotion+react@11.10.5:
+  /@mantine/core/5.10.2_rdbcatcwpd7u6iobtryzannyde:
     resolution: {integrity: sha512-DyvrkTj2U63Kvt3YD6kECA/PltcKwNa0Zr0IIPnEmhYM7bxpdae9pMRpRjwZ/o3JxkIh8k6vL2+7sxoec+IeKw==}
     peerDependencies:
       '@mantine/hooks': 5.10.2
@@ -788,6 +790,7 @@ packages:
       react-dom: '>=16.8.0'
     dependencies:
       '@floating-ui/react-dom-interactions': 0.10.3
+      '@mantine/hooks': 5.10.2
       '@mantine/styles': 5.10.2_@emotion+react@11.10.5
       '@mantine/utils': 5.10.2
       '@radix-ui/react-scroll-area': 1.0.2
@@ -797,7 +800,7 @@ packages:
       - '@types/react'
     dev: false
 
-  /@mantine/dropzone/5.10.2_@mantine+core@5.10.2:
+  /@mantine/dropzone/5.10.2_wu24gcaecufmlrefin7sci74eq:
     resolution: {integrity: sha512-7ljYzP+qHL0lnf4wW09NlYDDKBNgz/TNsbFkfwKOCeiGP/do3ztxSH3hdEcUYOfrjWV83kPPK361FsWmzOxPQw==}
     peerDependencies:
       '@mantine/core': 5.10.2
@@ -805,12 +808,19 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@mantine/core': 5.10.2_@emotion+react@11.10.5
+      '@mantine/core': 5.10.2_rdbcatcwpd7u6iobtryzannyde
+      '@mantine/hooks': 5.10.2
       '@mantine/utils': 5.10.2
       react-dropzone: 14.2.3
     dev: false
 
-  /@mantine/notifications/5.10.2_@mantine+core@5.10.2:
+  /@mantine/hooks/5.10.2:
+    resolution: {integrity: sha512-H26lZ+P2HasLXt3coXYUiN5hVRNXPYNwF93oP9TfmOOA+EEzbGtGQR/dBv51BF53UJ+rzgJ0W5lLi1CbZPdMnA==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dev: false
+
+  /@mantine/notifications/5.10.2_wu24gcaecufmlrefin7sci74eq:
     resolution: {integrity: sha512-JO92oVLRVbeD1Lz3zFlAFaK8uCWxev4R+RfhuAf3/MJgMLMvHT44hAJtnRUYC4jqnW0pweOKKflyQvnTZM7/Hg==}
     peerDependencies:
       '@mantine/core': 5.10.2
@@ -818,12 +828,13 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@mantine/core': 5.10.2_@emotion+react@11.10.5
+      '@mantine/core': 5.10.2_rdbcatcwpd7u6iobtryzannyde
+      '@mantine/hooks': 5.10.2
       '@mantine/utils': 5.10.2
       react-transition-group: 4.4.2
     dev: false
 
-  /@mantine/prism/5.10.2_@mantine+core@5.10.2:
+  /@mantine/prism/5.10.2_wu24gcaecufmlrefin7sci74eq:
     resolution: {integrity: sha512-vkSlFxLF/3OeSdqMFODgkhDFE5/2vaDBgv4E9D/oUrh8lyjs5MXFs4jwt6R0oWvgAbsOy8PPYqMUgemVdHv7qg==}
     peerDependencies:
       '@mantine/core': 5.10.2
@@ -831,7 +842,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@mantine/core': 5.10.2_@emotion+react@11.10.5
+      '@mantine/core': 5.10.2_rdbcatcwpd7u6iobtryzannyde
+      '@mantine/hooks': 5.10.2
       '@mantine/utils': 5.10.2
       prism-react-renderer: 1.3.5
     dev: false

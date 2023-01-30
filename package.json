@@ -14,6 +14,7 @@
     "@emotion/react": "^11.10.5",
     "@mantine/core": "^5.10.2",
     "@mantine/dropzone": "^5.10.2",
+    "@mantine/hooks": "^5.10.2",
     "@mantine/notifications": "^5.10.2",
     "@mantine/prism": "^5.10.2",
     "@shopify/react-web-worker": "^5.0.7",
